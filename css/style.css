@@ -1,0 +1,152 @@
+/*CSS pour CV*/
+.grey{ 
+background: linear-gradient(rgb(109, 109, 109)75%,rgb(255, 145, 19)) ; 
+}
+.grey2{
+background-color: rgb(109, 109, 109);  
+}
+
+.orange{
+background: linear-gradient(rgb(255, 145, 19)60%, rgb(109, 109, 109)); 
+}
+
+footer a:hover
+{
+    color:rgb(255, 196, 0);
+}
+
+footer a
+{
+    color: rgb(255, 145, 19);
+}
+
+.bouton {
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/*CSS pour MENU*/
+nav {
+    width: 100%;
+    background-color:  rgb(109, 109, 109);
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav ul{
+    margin:0px;
+    padding:0px;
+}
+
+nav ul::after{
+content:"";
+display: block;
+clear: both;
+}
+
+nav ul > li{
+float:left;
+position:relative;}
+
+nav ul > li > a{
+    padding: 20px 30px;
+    color: white;
+}
+nav > ul > li:hover a{
+    padding: 15px 30px 20px 30px;
+
+}
+.submenu{
+    display:none ;
+}
+
+nav a{
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: beige;
+}
+
+
+nav li:hover .submenu{
+    display:inline-block;
+    position:absolute;
+    top:100%;
+    left:0px;
+    padding:0px;
+    z-index: 1000;
+}
+
+.submenu li{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.submenu li a{
+    padding:15px 30px;
+    font-size: 13px;
+    color:rgb(255, 255, 255);
+    width:270px;
+    background-color:rgb(109, 109, 109);;
+}
+
+.menu-CV:hover{
+    border-top: 5px solid red;
+    background-color: rgba(228, 77, 38, 0.15);
+}
+.menu-programme{
+    color:white;
+}
+.menu-programme:hover{
+    border-top: 5px solid blue;
+    background-color: rgba(000, 112, 192, 0.15);
+    color: beige;
+}
+.menu-Github{
+    color:white;
+}
+.menu-Github:hover{
+    border-top: 5px solid yellow;
+    background-color: rgba(179, 182, 0, 0.15);
+    color: beige;
+}
+
+.menu-Lettremotiv{
+    color:white;
+}
+.menu-Lettremotiv:hover{
+    border-top: 5px solid green;
+    background-color: rgba(52, 182, 0, 0.15);
+    color: beige;
+}
+
+.texte{
+    color:white;
+    font-size: 60px;
+}
+.texte2{
+    color:white;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(255, 145, 19);
+}

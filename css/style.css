@@ -47,6 +47,7 @@
         margin: 0px;
         padding: 0px;
         position: relative;
+        background-color: rgb(255, 145, 19);
     }
     
     nav li{
@@ -146,7 +147,7 @@
     }
     
     .texte{
-        color:rgb(253, 0, 0);
+        color:white;
         font-size: xx-large;
     }
     

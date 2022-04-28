@@ -149,13 +149,12 @@
     .texte{
         color:white;
         font-size: xx-large;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: auto;
     }
     
     #footer1{
         position: relative;
     }
-    #body1{
-        margin-top: auto;
-        margin-bottom: auto;
-        width: auto;
-    }
+

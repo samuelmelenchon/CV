@@ -154,3 +154,7 @@
     #footer1{
         position: relative;
     }
+    #body1{
+        margin-top: auto;
+        margin-bottom: auto;
+    }

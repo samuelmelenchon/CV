@@ -21,7 +21,7 @@
     }
     
     footer{
-        position: relative;
+        position: absolute;
         bottom:0;
     }
     
@@ -151,5 +151,5 @@
     }
     
     #footer1{
-        position: absolute;
+        position: relative;
     }

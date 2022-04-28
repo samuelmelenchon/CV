@@ -21,7 +21,7 @@
     }
     
     footer{
-        position: static;
+        position: relative;
         bottom:0;
     }
     
@@ -150,3 +150,6 @@
         font-size: xx-large;
     }
     
+    #footer1{
+        position: absolute;
+    }

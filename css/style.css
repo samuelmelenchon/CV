@@ -40,14 +40,10 @@
     
     /*CSS pour MENU*/
     nav {
-        width: 100%;
         background-color:  rgb(109, 109, 109);
     }
     body{
         font-family:Arial, Helvetica, sans-serif;
-        margin: 0px;
-        padding: 0px;
-        position: relative;
         background-color: rgb(255, 145, 19);
     }
     
@@ -147,12 +143,9 @@
         color: beige;
     }
     
-    .texte{
+    div.container>p{
         color:white;
         font-size: xx-large;
-        margin-top: auto;
-        margin-bottom: auto;
-        width: auto;
     }
     
     #footer1{

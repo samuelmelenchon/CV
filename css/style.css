@@ -152,3 +152,6 @@
         position: relative;
     }
 
+    #img{
+        border-radius: 5px;
+    }

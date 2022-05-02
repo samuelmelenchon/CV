@@ -152,6 +152,9 @@
         position: relative;
     }
 
-    #img{
-        border-radius: 5px;
+    .img{
+        padding: 5px;
+        margin: 5px;
+        float:left;
+        border-radius: 50px;
     }
